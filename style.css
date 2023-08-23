@@ -1,0 +1,21 @@
+body{
+    background-color: dodgerblue;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: aliceblue;
+  }
+  
+  .flex-container > div {
+    display: flex;
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
